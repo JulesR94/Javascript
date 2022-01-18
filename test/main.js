@@ -41,14 +41,36 @@
 //}
 //calculate();
 //alert(var1 * var2);
-    
-function calculate() {
-    alert(var1 * var2);
+
+//let var1 = 2, var2 = 3;
+//function calculate() {
+//    alert(var1 * var2);
+//}
+
+//calculate();
+//alert(var1);
+//var1 = 3;
+//calculate();
+//alert(var1);
+
+// function calculate(var1, var2){
+//     alert(var1 * var2);
+// }
+// calculate (2,3);
+// calculate(5, 6)
+
+// function calculate(var1, var2){
+//    alert(var1 * var2);
+// }
+// let number_1a, number_2a;
+// number_1a = parseInt(prompt("votre premier nombre : "));
+// number_2a = parseInt(prompt("votre deuxiéme nombre"));
+// calculate2(number_1a,number_2a);
+// 
+class Calcul {
+    constructor(var1, var2) {
+    this.produit = var1 * var2;
+    }
 }
-
-calculate();
-alert(var1);
-var1 = 3;
-calculate();
-alert(var1);
-
+//console.log(new Calcul(4, 3).produit);
+alert(new Calcul(4, 3).produit);
