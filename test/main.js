@@ -41,8 +41,7 @@
 //}
 //calculate();
 //alert(var1 * var2);
-
-let var1 = 2, var2 = 3;
+    
 function calculate() {
     alert(var1 * var2);
 }
