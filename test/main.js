@@ -67,10 +67,22 @@
 // number_2a = parseInt(prompt("votre deuxiéme nombre"));
 // calculate2(number_1a,number_2a);
 // 
-class Calcul {
-    constructor(var1, var2) {
-    this.produit = var1 * var2;
-    }
-}
-//console.log(new Calcul(4, 3).produit);
-alert(new Calcul(4, 3).produit);
+// class Calcul {
+//     constructor(var1, var2) {
+//     this.produit = var1 * var2;
+//     }
+// }
+// //console.log(new Calcul(4, 3).produit);
+// alert(new Calcul(4, 3).produit);
+
+// let sayHello3 = (function(){
+//                 return "hello world";
+                
+// })();
+// alert(sayHello3);
+
+let calcul1 = (function(){ //fonction anonyme
+            let var1 = 2, var2 = 3;
+            return var1*var2;
+})();
+alert(calcul1);
