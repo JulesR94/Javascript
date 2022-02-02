@@ -8,8 +8,21 @@
 
 // let ordreinv = [nb4,nb3,nb2,nb1];
 // alert(ordreinv);
-let chiffres = ['2','0','1','6'];
+
+function Inverser(){
+    let chiffres= prompt("Entrez votre nombre");
+nombre = [];
 alert(chiffres[0]+chiffres[1]+chiffres[2]+chiffres[3]);
 
 ordreinv = chiffres[3]+chiffres[2]+chiffres[1]+chiffres[0];
 alert(ordreinv);
+}
+Inverser()
+
+
+// function Inverser(){
+//     let nombre = prompt('Entrez votre nombre à 4 chiffre : ');
+//     valeur = nombre.split('').reverse('').join('');
+//     alert(valeur);
+// }
+// Inverser()
