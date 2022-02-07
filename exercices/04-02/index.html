@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<script src="/exercices/04-02/main.js"></script>
-    <!-- <body style = "text-align:center;">     
+<body>
+    <!-- <script src="/exercices/04-02/main.js"></script> -->
+    <body style = "text-align:center;">     
           
         <input id = "input" type="text" name="input"/>  
         <button onclick="capitalizeString()">  
@@ -17,14 +18,12 @@
         </h3> 
             
         <script>  
-         
         function capitalizeString() { 
           let input = document.getElementById("input"); 
           let headingElement = document.getElementById("modified-string"); 
           let string = input.value; 
-          headingElement.innerHTML = string[0].toUpperCase() +  
-            string.slice(1); 
+          headingElement.innerHTML = string[0].toUpperCase() +  string.slice(1); 
         } 
-        </script> -->
+        </script>
 </body>
 </html>
